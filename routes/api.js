@@ -151,7 +151,7 @@ module.exports = function (app) {
             if(err || !data) {
               res.json({ error: 'could not update', '_id': _id });
             } else {
-              res.json({ result: 'sucessfully updated', '_id': _id })
+              res.json({ result: 'successfully updated', '_id': _id })
             }
           });
         }
