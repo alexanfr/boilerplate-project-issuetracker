@@ -148,6 +148,7 @@ module.exports = function (app) {
           issueData.assigned_to = assigned_to || issueData.assigned_to;
           issueData.status_text = status_text || issueData.status_text;
           issueData.open = open || issueData.open;
+          issueData.updated_on = Date();
 
           projectData.save((err, data) => {
             if(err || !data) {
