@@ -2,6 +2,7 @@
 
 const issueModel = require('../models').Issue;
 const projectModel = require('../models').Project;
+const ObjectId = mongoose.Types.ObjectId;
 
 module.exports = function (app) {
 
